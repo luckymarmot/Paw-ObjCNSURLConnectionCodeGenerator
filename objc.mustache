@@ -16,7 +16,7 @@ request.HTTPMethod = @"{{{request.method}}}";
 // Headers
 
 {{#headers.header_list}}
-[request addValue:@"{{{header_name}}}" forHTTPHeaderField:@"{{{header_value}}}"];
+[request addValue:@"{{{header_value}}}" forHTTPHeaderField:@"{{{header_name}}}"];
 {{/headers.header_list}}
 
 {{/headers.has_headers}}
