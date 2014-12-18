@@ -2,13 +2,29 @@
 
 # Objective-C + NSURLConnection Code Generator (Paw Extension)
 
-This a Paw Extension that generates code for Objective-C using the `NSURLConnection` library.
+A [Paw Extension](http://luckymarmot.com/paw/extensions/) that generates Objective-C code for the [NSURLConnection](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSURLConnection_Class/) library.
 
 ## Installation
 
-* `npm install`
-* `cake build`
-* `cake install`
+Easily install this Paw Extension: [Install Objective-C + NSURLConnection Code Generator](http://luckymarmot.com/paw/extensions/ObjCNSURLConnectionCodeGenerator)
+
+## Development
+
+### Build & Install
+
+```shell
+npm install
+cake build
+cake install
+```
+
+### Watch
+
+During development, watch for changes:
+
+```shell
+cake watch
+```
 
 ## License
 
