@@ -119,8 +119,9 @@ ObjCNSURLConnectionCodeGenerator = ->
 
 
 ObjCNSURLConnectionCodeGenerator.identifier =
-    "com.luckymarmot.PawExtensions.ObjCNSURLConnectionCodeGenerator";
+    "com.luckymarmot.PawExtensions.ObjCNSURLConnectionCodeGenerator"
 ObjCNSURLConnectionCodeGenerator.title =
-    "Objective-C (NSURLConnection)";
+    "Objective-C (NSURLConnection)"
+ObjCNSURLConnectionCodeGenerator.fileExtension = "m"
 
 registerCodeGenerator ObjCNSURLConnectionCodeGenerator
