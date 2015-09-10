@@ -130,5 +130,6 @@ ObjCNSURLConnectionCodeGenerator.identifier =
 ObjCNSURLConnectionCodeGenerator.title =
     "Objective-C (NSURLConnection)"
 ObjCNSURLConnectionCodeGenerator.fileExtension = "m"
+ObjCNSURLConnectionCodeGenerator.languageHighlighter = "objectivec"
 
 registerCodeGenerator ObjCNSURLConnectionCodeGenerator
